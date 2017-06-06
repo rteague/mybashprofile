@@ -8,6 +8,4 @@ alias ls='ls -GFh'
 alias l='ls -GFh'
 alias ll='ls -la'
 
-alias grep='grep --colour=auto -E'
-
-
+alias grep='grep --colour=auto'
