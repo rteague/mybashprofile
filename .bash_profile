@@ -14,4 +14,10 @@ alias grep='grep --colour=auto'
 # other
 alias cls='clear'
 
+# load any addons .bash_profile_addons
+# this file should be in your home directory
+if [ -f ".bash_profile_addons" ]; then
+    source .bash_profile_addons
+fi
+
 
