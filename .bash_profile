@@ -15,6 +15,14 @@ alias grep='grep --colour=auto'
 # other
 alias cls='clear'
 
+# functions
+# get size of a path in total, human readable format
+function getsize
+{
+    local path=${1:-.}
+    du -ch "$path" | grep total | grep --color=never -Eo '\d+[KMGT]'
+}
+
 # load any addons .bash_profile_addons
 # this file should be in your home directory
 if [ -f ".bash_profile_addons" ]; then
