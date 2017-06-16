@@ -11,6 +11,7 @@ alias ll='ls -la'
 
 # finding things
 alias grep='grep --colour=auto'
+alias hosts='cat /etc/hosts'
 
 # other
 alias cls='clear'
