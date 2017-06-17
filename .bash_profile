@@ -39,7 +39,7 @@ if [ -f "$HOME/.bash_profile_addons" ]; then
 fi
 
 if [ -f "$HOME/.bash_extend"  ]; then
-    source $HOME/.bash_profile_extend
+    source $HOME/.bash_extend
 fi
 
 # NOTE: I got this from:
