@@ -2,12 +2,8 @@
 
 From the mybashprofile folder, run:
 ```bash
-cp .bash_profile $HOME
+bash copy.sh
 ```
 
-Then:
-```bash
-source $HOME/.bash_profile
-```
 
 Finished!
